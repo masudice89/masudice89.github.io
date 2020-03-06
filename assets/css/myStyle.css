@@ -1,0 +1,81 @@
+/*My Style*/
+
+.left-content{
+  width: 74%;
+  float: left; 
+  cursor: inherit !important;
+}
+
+.module h5 {
+  font-size: 1.2em;
+  padding: 3px 0;
+}
+.module:first-child {
+  margin-left: 0;
+}
+.module ul{
+  display: block;
+  width: 63%;
+  float: right;
+  list-style: none;
+}
+
+.module img{
+  position: relative;
+  left: 0;
+  transition: all 300ms ease-out;
+  float: left;
+}
+.module{
+  width: 48%;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  height: 150px;
+  float: left;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  color: #000;
+  /* width: 326px!important; */
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  -moz-box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+/* Caption Common Style */
+.caption {
+  position: relative;
+  color: #000;
+  z-index: 100;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 66%;
+}
+.caption li {
+  margin: 2px 0 0 20px;
+  font-size: 0.9em;
+  list-style-image: url("assets/images/bullet_arrow.png");
+}
+.caption li a {
+  font-size: 0.9em;
+  text-decoration: none;
+  display: block;
+}
+.caption li a:hover {
+  text-decoration: underline;
+}       
+
+.right-content{
+  width: 25%;
+  margin-left: 1%;
+  float: left;
+  height: 100%;
+}
+/*My Style*/
